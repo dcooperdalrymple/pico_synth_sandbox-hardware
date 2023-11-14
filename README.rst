@@ -33,14 +33,14 @@ Software
 --------
 
 CircuitPython Library
-*********************
+~~~~~~~~~~~~~~~~~~~~~
 
-The pico_synth_sandbox is designed for use with CircuitPython and synthio. A specialized library with hardware abstraction and a multitude of additional features for embedded audio synthesis is available in the `pico_synth_sandbox <https://github.com/dcooperdalrymple/pico_synth_sandbox>` repository. Library documentation and other resources are available on `Read the Docs <https://pico-synth-sandbox.readthedocs.io/>`.
+The pico_synth_sandbox is designed for use with CircuitPython and synthio. A specialized library with hardware abstraction and a multitude of additional features for embedded audio synthesis is available in the `pico_synth_sandbox <https://github.com/dcooperdalrymple/pico_synth_sandbox>`_ repository. Library documentation and other resources are available on `Read the Docs <https://pico-synth-sandbox.readthedocs.io/>`_.
 
 CircuitPython Tests
-*******************
+~~~~~~~~~~~~~~~~~~~
 
-A number of hardware tests are available within the `tests` directory to validate the `pico_synth_sandbox` hardware using the REPL serial terminal.
+A number of hardware tests are available within the ``./tests`` directory to validate the ``pico_synth_sandbox`` hardware using the REPL serial terminal.
 
 RP2040 Pin Assignment
 ---------------------
