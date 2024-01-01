@@ -16,6 +16,10 @@ Raspberry Pi Pico digital synthesizer board with I2S or PWM audio, a PDM microph
       - .. image:: _static/bottom.jpg
             :alt: Bottom view of 3d rendered board
 
+Update [2023-12-12]
+-------------------
+The current revision (Rev1) of this hardware has a number of known bugs with battery charging, 5v power distribution, and PWM audio output. A major revision of the schematic and pcb is in progress and is expected to be released publicly before the end of 2023.
+
 Features
 --------
 
