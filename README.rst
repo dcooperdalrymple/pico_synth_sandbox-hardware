@@ -111,7 +111,7 @@ Schematic
 
 .. image:: _static/schematic.jpg
    :alt: Hardware schematic of pico_synth_sandbox device
-   :target: _static/pico_synth_sandbox-schematic.pdf
+   :target: _static/schematic.pdf
 
 Attribution
 -----------
