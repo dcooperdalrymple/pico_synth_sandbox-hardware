@@ -5,7 +5,7 @@ pico_synth_sandbox Hardware
     :target: https://www.gnu.org/licenses/gpl-3.0
     :alt: GPL v3 License
 
-Raspberry Pi Pico digital synthesizer board with I2S or PWM audio, a PDM microphone, MIDI i/o, a capacitive keybed, 1602 display, a rotary encoder, and LiPo battery. Designed for use with CircuitPython and synthio.
+Raspberry Pi Pico digital synthesizer board with stereo I2S audio (ADC & DAC), stereo omnidirectional MEMS microphones, MIDI i/o, a 16-key capacitive keybed, 1602 display, 2 rotary encoders, and LiPo battery charging and power distribution. Designed for use with CircuitPython and synthio.
 
 .. list-table::
 
@@ -16,22 +16,20 @@ Raspberry Pi Pico digital synthesizer board with I2S or PWM audio, a PDM microph
       - .. image:: _static/bottom.jpg
             :alt: Bottom view of 3d rendered board
 
-Update [2023-12-12]
--------------------
-The current revision (Rev1) of this hardware has a number of known bugs with battery charging, 5v power distribution, and PWM audio output. A major revision of the schematic and pcb is in progress and is expected to be released publicly before the end of 2023.
-
 Features
 --------
 
-* PCM5102 I2S DAC module compatibility or with populated components
-* Optional PWM audio output
+* PCM5102 I2S DAC with line output
+* PCM1860 I2S ADC with line and microphone input
+* PAM8019 amplifier with stereo class AB headphone and class D speaker output
 * LiPo Battery usb charging and power supply controlled by 3v3_enable
-* MIDI input and output via MIDI TRS-A 3.5mm jack (compatible with most adapters)
-* Dedicated volume pot with on-board speaker and line output
-* 12 capacitive sense touch buttons serving as a single-octave keybed
-* Software reset button
-* 1602 display and rotary encoder with switch
-* Optional PDM Microphone
+* MIDI input and output via MIDI TRS-A 3.5mm jacks (compatible with most adapters)
+* Input level potentiometer (line input only)
+* Amplifier volume potentiometer (line output not included)
+* 16 capacitive sense touch buttons powered by the TTP229-BSF
+* 16x2 LCD character display
+* 2 rotary encoders with push switches
+* Micro SD card storage
 
 Software
 --------
@@ -55,60 +53,114 @@ Some pins require solder jumper configuration if you do not use the default pin 
     :header-rows: 1
 
     * - Pin Reference
+      - Assignment
+      - Direction
       - Function
 
     * - GP0
-      - Encoder A (included in UART0 header)
+      - SD Card RX
+      - Input
+      - SPI0
     * - GP1
-      - Encoder B (included in UART0 header)
+      - SD Card CS
+      - Output
+      - SPI0
     * - GP2
-      - Encoder Switch
+      - SD Card SCK
+      - Output
+      - SPI0
     * - GP3
-      - Touch Pad 2 (C#)
+      - SD Card TX
+      - Output
+      - SPI0
     * - GP4
-      - MIDITX (UART1) or Microphone PDM Clock (JP2)
+      - MIDITX
+      - Output
+      - UART1
     * - GP5
-      - MIDIRX (UART1) or Microphone PDM Data (JP1)
+      - MIDIRX
+      - Input
+      - UART1
     * - GP6
-      - Touch Pad 3 (D)
-    * - GP7
-      - Touch Pad 4 (D#)
-    * - GP8
-      - Touch Pad 5 (E)
-    * - GP9
-      - Touch Pad 6 (F)
-    * - GP10
-      - Touch Pad 7 (F#)
-    * - GP11
-      - Touch Pad 8 (G)
-    * - GP12
-      - Touch Pad 9 (G#)
-    * - GP13
-      - Touch Pad 10 (A)
-    * - GP14
-      - Touch Pad 11 (A#)
-    * - GP15
-      - Touch Pad 12 (B)
-    * - GP16
-      - I2S Clock or Left PWM (JP3/JP5)
-    * - GP17
-      - I2S Word (LR) Select or Right PWM (JP4/JP6)
-    * - GP18
-      - I2S Data
-    * - GP19
-      - Touch Pad 1 (C)
-    * - GP20
-      - 1602 Reset
-    * - GP21
       - 1602 Enable
+      - Output
+      - GPIO
+    * - GP7
+      - 1602 Reset
+      - Output
+      - GPIO
+    * - GP8
+      - ADC Serial Clock
+      - Output
+      - I2S
+    * - GP9
+      - ADC Word Select
+      - Output
+      - I2S
+    * - GP10
+      - ADC Serial Data
+      - Input
+      - I2S
+    * - GP11
+      - Encoder 1 A
+      - Input
+      - GPIO
+    * - GP12
+      - Encoder 1 B
+      - Input
+      - GPIO
+    * - GP13
+      - Encoder 1 Switch
+      - Input
+      - GPIO
+    * - GP14
+      - TTP229 Serial Data
+      - Input
+      - GPIO
+    * - GP15
+      - TTP229 Serial Clock
+      - Output
+      - GPIO
+    * - GP16
+      - Encoder 2 A
+      - Input
+      - GPIO
+    * - GP17
+      - Encoder 2 B
+      - Input
+      - GPIO
+    * - GP18
+      - Encoder 2 Switch
+      - Input
+      - GPIO
+    * - GP19
+      - DAC Serial Clock
+      - Output
+      - I2S
+    * - GP20
+      - DAC Word Select
+      - Output
+      - I2S
+    * - GP21
+      - DAC Serial Data
+      - Output
+      - I2S
     * - GP22
-      - 1602 D4
-    * - GP26
-      - 1602 D5
-    * - GP27
-      - 1602 D6
-    * - GP28
       - 1602 D7
+      - Output
+      - GPIO
+    * - GP26
+      - 1602 D6
+      - Output
+      - GPIO
+    * - GP27
+      - 1602 D5
+      - Output
+      - GPIO
+    * - GP28
+      - 1602 D4
+      - Output
+      - GPIO
 
 Schematic
 ---------
