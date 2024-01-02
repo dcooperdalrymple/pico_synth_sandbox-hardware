@@ -2402,7 +2402,7 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "DAC_I2SDAT" (shape input) (at 99.06 82.55 0) (fields_autoplaced)
+  (global_label "DAC_I2SDAT" (shape output) (at 99.06 82.55 0) (fields_autoplaced)
     (effects (font (size 1 1)) (justify left))
     (uuid b646addd-b400-4d72-af90-7043ff8096b3)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 110.0293 82.55 0)
