@@ -146,19 +146,19 @@ Some pins require solder jumper configuration if you do not use the default pin 
       - Output
       - I2S
     * - GP22
-      - 1602 D7
+      - 1602 D4
       - Output
       - GPIO
     * - GP26
-      - 1602 D6
-      - Output
-      - GPIO
-    * - GP27
       - 1602 D5
       - Output
       - GPIO
+    * - GP27
+      - 1602 D6
+      - Output
+      - GPIO
     * - GP28
-      - 1602 D4
+      - 1602 D7
       - Output
       - GPIO
 

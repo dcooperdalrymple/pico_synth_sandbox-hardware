@@ -1,8 +1,8 @@
 import board
 import digitalio
 
-lcd_rs = digitalio.DigitalInOut(board.GP20)
-lcd_en = digitalio.DigitalInOut(board.GP21)
+lcd_rs = digitalio.DigitalInOut(board.GP7)
+lcd_en = digitalio.DigitalInOut(board.GP6)
 lcd_d4 = digitalio.DigitalInOut(board.GP22)
 lcd_d5 = digitalio.DigitalInOut(board.GP26)
 lcd_d6 = digitalio.DigitalInOut(board.GP27)

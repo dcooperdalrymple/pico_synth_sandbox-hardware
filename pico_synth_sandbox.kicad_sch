@@ -2179,7 +2179,7 @@
     (uuid df7e4f77-15a3-4e64-a940-0f40b9cb2551)
   )
 
-  (label "1602D4" (at 39.37 179.07 0) (fields_autoplaced)
+  (label "1602D7" (at 39.37 179.07 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 052b1118-7c91-4067-91aa-a44a4053129e)
   )
@@ -2199,7 +2199,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 260f6ba4-7b1f-40a4-bcc9-10bb8d82eef3)
   )
-  (label "1602D5" (at 106.68 69.85 180) (fields_autoplaced)
+  (label "1602D6" (at 106.68 69.85 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 2d8ff27c-11dc-44fd-a6cf-1c06bff77e01)
   )
@@ -2219,7 +2219,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 637abb57-9c57-4f2c-bbfb-059b895f2aec)
   )
-  (label "1602D6" (at 39.37 173.99 0) (fields_autoplaced)
+  (label "1602D5" (at 39.37 173.99 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7fb82486-9163-49ff-a57a-961f5c9e5d97)
   )
@@ -2227,7 +2227,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8ce9d158-a797-4cdc-aee0-34e21154d189)
   )
-  (label "1602D5" (at 39.37 176.53 0) (fields_autoplaced)
+  (label "1602D6" (at 39.37 176.53 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a21aff4d-2e80-49ea-bfed-429ee3eb2e74)
   )
@@ -2235,7 +2235,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid a62b44ac-f77b-4d53-b470-b0daae617813)
   )
-  (label "1602D4" (at 106.68 64.77 180) (fields_autoplaced)
+  (label "1602D7" (at 106.68 64.77 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid b0abcd04-5455-4217-b8a6-9c4af8159a8e)
   )
@@ -2243,11 +2243,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bb51e83d-c24e-49d0-aa1e-644955aa20f5)
   )
-  (label "1602D7" (at 39.37 171.45 0) (fields_autoplaced)
+  (label "1602D4" (at 39.37 171.45 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c096ad17-5b93-4512-9746-826095576f63)
   )
-  (label "1602D6" (at 106.68 72.39 180) (fields_autoplaced)
+  (label "1602D5" (at 106.68 72.39 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d71c8cba-823c-48b5-9bc2-e51ad0bdcc06)
   )
@@ -2267,7 +2267,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ea058bcb-0b7c-45b7-83a1-e7c5aa19a0e0)
   )
-  (label "1602D7" (at 106.68 77.47 180) (fields_autoplaced)
+  (label "1602D4" (at 106.68 77.47 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid f59caf6a-26bc-4cdb-9e7e-6519da05c197)
   )
@@ -2552,9 +2552,6 @@
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
           (reference "#PWR022") (unit 1)
         )
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/9c12b2ee-f811-4183-acdf-4598ef52f2ef"
-          (reference "#PWR0148") (unit 1)
-        )
       )
     )
   )
@@ -2562,7 +2559,7 @@
   (symbol (lib_id "pico_synth_sandbox:VSYS") (at 190.5 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 22f756e6-8a0f-4089-a62a-fb8aa0b73a81)
-    (property "Reference" "#PWR030" (at 190.5 38.1 0)
+    (property "Reference" "#PWR026" (at 190.5 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VSYS" (at 190.5 29.21 0)
@@ -2577,9 +2574,6 @@
     (pin "1" (uuid 82bc5f25-0d57-4218-a2e4-2fd4610250e9))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/f0d7f11b-6ebd-4c2b-8e52-e814f3b2f284"
-          (reference "#PWR030") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
           (reference "#PWR026") (unit 1)
         )
@@ -2655,7 +2649,7 @@
   (symbol (lib_id "power:+3.3VA") (at 233.68 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 323d6e56-ce05-4264-b3d1-e2fa4f90e193)
-    (property "Reference" "#PWR040" (at 233.68 38.1 0)
+    (property "Reference" "#PWR030" (at 233.68 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 233.68 29.21 0)
@@ -2670,9 +2664,6 @@
     (pin "1" (uuid 48db8cb5-3052-4b4b-a61e-132c9995f4ab))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/f0d7f11b-6ebd-4c2b-8e52-e814f3b2f284"
-          (reference "#PWR040") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
           (reference "#PWR030") (unit 1)
         )
@@ -2708,7 +2699,7 @@
   (symbol (lib_id "power:GND") (at 245.11 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3fbb1f70-21ea-445f-ad3b-35a88a68007d)
-    (property "Reference" "#PWR031" (at 245.11 115.57 0)
+    (property "Reference" "#PWR035" (at 245.11 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 245.11 114.3 0)
@@ -2723,9 +2714,6 @@
     (pin "1" (uuid 8aece004-c10c-4411-88cd-c2afd26d89eb))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/f0d7f11b-6ebd-4c2b-8e52-e814f3b2f284"
-          (reference "#PWR031") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
           (reference "#PWR035") (unit 1)
         )
@@ -2761,7 +2749,7 @@
   (symbol (lib_id "power:GND") (at 228.6 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47d3aa61-601a-4bbb-9ed1-3c99e7dad441)
-    (property "Reference" "#PWR031" (at 228.6 115.57 0)
+    (property "Reference" "#PWR029" (at 228.6 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 228.6 114.3 0)
@@ -2776,9 +2764,6 @@
     (pin "1" (uuid 90584f68-42b7-487a-a7bd-59a684fa3a2b))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/f0d7f11b-6ebd-4c2b-8e52-e814f3b2f284"
-          (reference "#PWR031") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
           (reference "#PWR029") (unit 1)
         )
@@ -2839,7 +2824,7 @@
   (symbol (lib_id "power:GND") (at 246.38 38.1 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d421708-1782-4fdb-9d8d-1e8103b762a0)
-    (property "Reference" "#PWR041" (at 240.03 38.1 0)
+    (property "Reference" "#PWR036" (at 240.03 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 242.57 38.1 90)
@@ -2854,9 +2839,6 @@
     (pin "1" (uuid 30a569b4-4b23-40d1-b44c-56c381bead85))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/f0d7f11b-6ebd-4c2b-8e52-e814f3b2f284"
-          (reference "#PWR041") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
           (reference "#PWR036") (unit 1)
         )
@@ -3042,7 +3024,7 @@
   (symbol (lib_id "power:GND") (at 234.95 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 70c7f838-7441-45ad-8362-925f19660b22)
-    (property "Reference" "#PWR031" (at 234.95 115.57 0)
+    (property "Reference" "#PWR033" (at 234.95 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 234.95 114.3 0)
@@ -3057,9 +3039,6 @@
     (pin "1" (uuid fd7aa89e-ee80-4729-9822-22ce18a5b08e))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/f0d7f11b-6ebd-4c2b-8e52-e814f3b2f284"
-          (reference "#PWR031") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
           (reference "#PWR033") (unit 1)
         )
@@ -3145,7 +3124,7 @@
   (symbol (lib_id "power:GND") (at 180.34 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8092093b-2e12-4986-aba3-3d1dd06408e3)
-    (property "Reference" "#PWR031" (at 180.34 115.57 0)
+    (property "Reference" "#PWR025" (at 180.34 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 180.34 114.3 0)
@@ -3160,9 +3139,6 @@
     (pin "1" (uuid 24c80067-2cd1-4472-8213-ba6d9b26838b))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/f0d7f11b-6ebd-4c2b-8e52-e814f3b2f284"
-          (reference "#PWR031") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
           (reference "#PWR025") (unit 1)
         )
@@ -3290,7 +3266,7 @@
   (symbol (lib_id "power:GND") (at 158.75 49.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9153c65a-35c7-4741-afd3-5c036b2affc4)
-    (property "Reference" "#PWR094" (at 165.1 49.53 0)
+    (property "Reference" "#PWR023" (at 165.1 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 162.56 49.53 90)
@@ -3305,9 +3281,6 @@
     (pin "1" (uuid 1e60f411-4220-47ef-a9ce-ff5489ed479f))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/9c12b2ee-f811-4183-acdf-4598ef52f2ef"
-          (reference "#PWR094") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
           (reference "#PWR023") (unit 1)
         )
@@ -3410,7 +3383,7 @@
   (symbol (lib_id "power:GND") (at 209.55 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a0ffd31-4470-4cf9-abf9-52c1c92b11e1)
-    (property "Reference" "#PWR031" (at 209.55 57.15 0)
+    (property "Reference" "#PWR027" (at 209.55 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 209.55 55.88 0)
@@ -3425,9 +3398,6 @@
     (pin "1" (uuid da358925-518c-4eff-a7c0-f3b86c3587e9))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/f0d7f11b-6ebd-4c2b-8e52-e814f3b2f284"
-          (reference "#PWR031") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
           (reference "#PWR027") (unit 1)
         )
@@ -3463,7 +3433,7 @@
   (symbol (lib_id "Device:C_Small") (at 220.98 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a312070b-0187-407f-ad47-f94e8e4e1e23)
-    (property "Reference" "C8" (at 223.52 44.4563 0)
+    (property "Reference" "C1" (at 223.52 44.4563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470pF" (at 223.52 46.9963 0)
@@ -3479,9 +3449,6 @@
     (pin "2" (uuid 3b7ca193-960c-46a1-a681-b54f8d5660f3))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/f0d7f11b-6ebd-4c2b-8e52-e814f3b2f284"
-          (reference "C8") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
           (reference "C1") (unit 1)
         )
@@ -3686,7 +3653,7 @@
   (symbol (lib_id "power:+5V") (at 148.59 33.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be4616ac-50e0-4677-8ba6-2d558098421b)
-    (property "Reference" "#PWR093" (at 152.4 33.02 0)
+    (property "Reference" "#PWR021" (at 152.4 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 144.78 33.02 90)
@@ -3701,9 +3668,6 @@
     (pin "1" (uuid 0ed6924e-b1e0-4cbd-97fd-807a7f7ec9f2))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/9c12b2ee-f811-4183-acdf-4598ef52f2ef"
-          (reference "#PWR093") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
           (reference "#PWR021") (unit 1)
         )
@@ -3854,7 +3818,7 @@
   (symbol (lib_id "Device:C_Small") (at 233.68 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d00c0bd2-53a3-4d2d-8d86-3bd795a19c73)
-    (property "Reference" "C10" (at 236.22 43.9039 0)
+    (property "Reference" "C2" (at 236.22 43.9039 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2uF" (at 236.22 46.4439 0)
@@ -3870,9 +3834,6 @@
     (pin "2" (uuid c4a31b05-a6da-4118-b4c0-dec2edeef022))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/f0d7f11b-6ebd-4c2b-8e52-e814f3b2f284"
-          (reference "C10") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
           (reference "C2") (unit 1)
         )
@@ -3908,7 +3869,7 @@
   (symbol (lib_id "power:GND") (at 220.98 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2819185-5aa2-4e6e-813a-e42feb69cb0f)
-    (property "Reference" "#PWR038" (at 220.98 57.15 0)
+    (property "Reference" "#PWR028" (at 220.98 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 220.98 55.88 0)
@@ -3923,9 +3884,6 @@
     (pin "1" (uuid 89759849-b2f2-483f-a3c0-ec73d9ca528b))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/f0d7f11b-6ebd-4c2b-8e52-e814f3b2f284"
-          (reference "#PWR038") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
           (reference "#PWR028") (unit 1)
         )
@@ -4005,9 +3963,6 @@
     (pin "5" (uuid 62ad5e73-6060-4e1d-8f2b-2a41a8047406))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/f0d7f11b-6ebd-4c2b-8e52-e814f3b2f284"
-          (reference "U2") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
           (reference "U2") (unit 1)
         )
@@ -4043,7 +3998,7 @@
   (symbol (lib_id "power:GND") (at 233.68 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2cd9c24-447e-4164-9a67-9a1e0489d394)
-    (property "Reference" "#PWR041" (at 233.68 57.15 0)
+    (property "Reference" "#PWR031" (at 233.68 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 233.68 55.88 0)
@@ -4058,9 +4013,6 @@
     (pin "1" (uuid b0ad1b50-b80c-46fd-afec-7942d485af09))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/f0d7f11b-6ebd-4c2b-8e52-e814f3b2f284"
-          (reference "#PWR041") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
           (reference "#PWR031") (unit 1)
         )
