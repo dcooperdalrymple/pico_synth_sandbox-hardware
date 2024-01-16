@@ -3,22 +3,31 @@ import digitalio
 from adafruit_debouncer import Debouncer
 import rotaryio
 
-button_pin = digitalio.DigitalInOut(board.GP2)
-button_pin.direction = digitalio.Direction.INPUT
-button_pin.pull = digitalio.Pull.UP
-button_switch = Debouncer(button_pin)
+def get_button(pin):
+    input = digitalio.DigitalInOut(pin)
+    input.direction = digitalio.Direction.INPUT
+    input.pull = digitalio.Pull.UP
+    return Debouncer(input)
 
-encoder = rotaryio.IncrementalEncoder(board.GP1, board.GP0)
-last_position = encoder.position
+button = (
+    get_button(board.GP13),
+    get_button(board.GP18)
+)
+encoder = (
+    rotaryio.IncrementalEncoder(board.GP12, board.GP11),
+    rotaryio.IncrementalEncoder(board.GP17, board.GP16)
+)
+last_position = [encoder[0].position, encoder[1].position]
 
 while True:
-    current_position = encoder.position
-    if current_position - last_position != 0:
-        print(current_position)
-    last_position = current_position
+    for i in range(2):
+        current_position = encoder[i].position
+        if current_position - last_position[i] != 0:
+            print("{:d}: {:d}".format(i+1, current_position))
+        last_position[i] = current_position
 
-    button_switch.update()
-    if button_switch.fell:
-        print("press")
-    if button_switch.rose:
-        print("release")
+        button[i].update()
+        if button[i].fell:
+            print("{:d}: press".format(i+1))
+        if button[i].rose:
+            print("{:d}: release".format(i+1))
