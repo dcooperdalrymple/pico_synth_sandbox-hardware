@@ -11,11 +11,11 @@ MODE_16KEY=1
 input_mode = MODE_16KEY
 input_bits = (input_mode + 1) * 8
 
-sdo = DigitalInOut(board.GP6)
+sdo = DigitalInOut(board.GP14)
 sdo.direction = Direction.INPUT
 sdo.pull = Pull.UP
 
-scl = DigitalInOut(board.GP7)
+scl = DigitalInOut(board.GP15)
 scl.direction = Direction.OUTPUT
 
 def sleep_us(us):
@@ -31,12 +31,12 @@ def sleep_ms(ms):
 
 while True:
     data = 0
-    scl.value = True
+    scl.value = False
     for i in range(input_bits):
-        scl.value = False
+        scl.value = True
         if sdo.value:
             data |= (1 << i)
-        scl.value = True
-    scl.value = False
+        scl.value = False
+    scl.value = True
     print(bin(data))
     time.sleep(0.5)
