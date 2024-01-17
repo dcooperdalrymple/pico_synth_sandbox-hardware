@@ -1836,7 +1836,7 @@
   (symbol (lib_id "Transistor_FET:BSS138") (at 191.77 82.55 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9f94f5cc-844d-4005-a2b2-4209cc1cfc32)
-    (property "Reference" "Q7" (at 191.77 88.9 90)
+    (property "Reference" "Q5" (at 191.77 88.9 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BSS138" (at 191.77 91.44 90)
@@ -1853,9 +1853,6 @@
     (pin "3" (uuid f850dbd1-07a0-4913-8478-835bcccb66d0))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
-          (reference "Q7") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/9c12b2ee-f811-4183-acdf-4598ef52f2ef"
           (reference "Q5") (unit 1)
         )
@@ -1891,7 +1888,7 @@
   (symbol (lib_id "Transistor_FET:BSS138") (at 205.74 82.55 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a3eeb899-0d40-439b-87d9-95273833a976)
-    (property "Reference" "Q7" (at 205.74 88.9 90)
+    (property "Reference" "Q6" (at 205.74 88.9 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BSS138" (at 205.74 91.44 90)
@@ -1908,9 +1905,6 @@
     (pin "3" (uuid 523aec19-c947-4233-af52-a9b9f0d98534))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
-          (reference "Q7") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/9c12b2ee-f811-4183-acdf-4598ef52f2ef"
           (reference "Q6") (unit 1)
         )

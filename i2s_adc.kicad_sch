@@ -1788,7 +1788,7 @@
   (symbol (lib_id "power:+3.3V") (at 130.81 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 01de05ec-c3f3-410f-911c-6509ffa57c5f)
-    (property "Reference" "#PWR09" (at 130.81 80.01 0)
+    (property "Reference" "#PWR071" (at 130.81 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 130.81 72.39 0)
@@ -1803,12 +1803,6 @@
     (pin "1" (uuid 6dbcdc44-7ae6-43c0-a13b-16fb4daea73f))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
-          (reference "#PWR09") (unit 1)
-        )
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/f0d7f11b-6ebd-4c2b-8e52-e814f3b2f284"
-          (reference "#PWR034") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/93632245-6c20-4ae6-b62e-7dbbebc316d1"
           (reference "#PWR071") (unit 1)
         )
@@ -1844,7 +1838,7 @@
   (symbol (lib_id "power:+3.3VA") (at 138.43 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 031ae1bd-3a32-428d-ac82-a2972391cc82)
-    (property "Reference" "#PWR036" (at 138.43 80.01 0)
+    (property "Reference" "#PWR073" (at 138.43 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 138.43 72.39 0)
@@ -1859,9 +1853,6 @@
     (pin "1" (uuid 25abbbf6-a22c-44f0-97c3-4c0649a003dc))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/f0d7f11b-6ebd-4c2b-8e52-e814f3b2f284"
-          (reference "#PWR036") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/93632245-6c20-4ae6-b62e-7dbbebc316d1"
           (reference "#PWR073") (unit 1)
         )
@@ -1927,7 +1918,7 @@
   (symbol (lib_id "power:+3.3VA") (at 48.26 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 124f3134-a068-4c3c-9fbb-fb44a829b337)
-    (property "Reference" "#PWR036" (at 48.26 27.94 0)
+    (property "Reference" "#PWR063" (at 48.26 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 48.26 20.32 0)
@@ -1942,9 +1933,6 @@
     (pin "1" (uuid 35e22105-821f-4cfa-bcfa-0d35ebc86876))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/f0d7f11b-6ebd-4c2b-8e52-e814f3b2f284"
-          (reference "#PWR036") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/93632245-6c20-4ae6-b62e-7dbbebc316d1"
           (reference "#PWR063") (unit 1)
         )
@@ -2089,7 +2077,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 176.53 101.6 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 26687658-ae56-4f58-bb7a-12372051d91b)
-    (property "Reference" "TP4" (at 181.61 101.6 90)
+    (property "Reference" "TP5" (at 181.61 101.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SCK" (at 181.61 104.14 90)
@@ -2104,9 +2092,6 @@
     (pin "1" (uuid 972ce82e-9e24-469f-be6f-afa7195d3e80))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/f0d7f11b-6ebd-4c2b-8e52-e814f3b2f284"
-          (reference "TP4") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/93632245-6c20-4ae6-b62e-7dbbebc316d1"
           (reference "TP5") (unit 1)
         )
@@ -2117,7 +2102,7 @@
   (symbol (lib_id "power:+3.3VA") (at 68.58 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a377346-4465-4ed3-98d7-170d7f94c84c)
-    (property "Reference" "#PWR036" (at 68.58 171.45 0)
+    (property "Reference" "#PWR065" (at 68.58 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 68.58 163.83 0)
@@ -2132,9 +2117,6 @@
     (pin "1" (uuid 13d55954-17e6-4786-bacc-906ba243e466))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/f0d7f11b-6ebd-4c2b-8e52-e814f3b2f284"
-          (reference "#PWR036") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/93632245-6c20-4ae6-b62e-7dbbebc316d1"
           (reference "#PWR065") (unit 1)
         )
@@ -2249,7 +2231,7 @@
   (symbol (lib_id "power:+3.3V") (at 165.1 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4aea4558-d549-4e66-86cf-eb95a76101a4)
-    (property "Reference" "#PWR09" (at 165.1 113.03 0)
+    (property "Reference" "#PWR076" (at 165.1 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 165.1 105.41 0)
@@ -2264,12 +2246,6 @@
     (pin "1" (uuid 93d74fef-901a-4dee-b868-48e49d93c54e))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
-          (reference "#PWR09") (unit 1)
-        )
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/f0d7f11b-6ebd-4c2b-8e52-e814f3b2f284"
-          (reference "#PWR034") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/93632245-6c20-4ae6-b62e-7dbbebc316d1"
           (reference "#PWR076") (unit 1)
         )
@@ -2408,7 +2384,7 @@
   (symbol (lib_id "power:+3.3VA") (at 232.41 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 65980623-9829-4b57-ad11-f027a1c5bfe8)
-    (property "Reference" "#PWR036" (at 232.41 43.18 0)
+    (property "Reference" "#PWR079" (at 232.41 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 232.41 35.56 0)
@@ -2423,9 +2399,6 @@
     (pin "1" (uuid 1be07d8f-e29b-4d61-9401-efb20f2bed91))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/f0d7f11b-6ebd-4c2b-8e52-e814f3b2f284"
-          (reference "#PWR036") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/93632245-6c20-4ae6-b62e-7dbbebc316d1"
           (reference "#PWR079") (unit 1)
         )
@@ -2853,7 +2826,7 @@
   (symbol (lib_id "Device:R_Pack04") (at 165.1 99.06 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8014e78-7fa7-4f44-a0a8-c5f18d2a17fa)
-    (property "Reference" "RN3" (at 165.1 88.9 90)
+    (property "Reference" "RN5" (at 165.1 88.9 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22" (at 165.1 91.44 90)
@@ -2875,9 +2848,6 @@
     (pin "8" (uuid 40ce6efe-fde9-4df7-8007-ddafb8907d4b))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/f0d7f11b-6ebd-4c2b-8e52-e814f3b2f284"
-          (reference "RN3") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/93632245-6c20-4ae6-b62e-7dbbebc316d1"
           (reference "RN5") (unit 1)
         )
@@ -2940,7 +2910,7 @@
   (symbol (lib_id "power:+3.3VA") (at 180.34 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db6ef904-b8e7-4ba3-b430-5c8ec8e2941f)
-    (property "Reference" "#PWR036" (at 180.34 43.18 0)
+    (property "Reference" "#PWR077" (at 180.34 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 180.34 35.56 0)
@@ -2955,9 +2925,6 @@
     (pin "1" (uuid 0f6befcb-ab91-48c3-9063-610215ec75c7))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/f0d7f11b-6ebd-4c2b-8e52-e814f3b2f284"
-          (reference "#PWR036") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/93632245-6c20-4ae6-b62e-7dbbebc316d1"
           (reference "#PWR077") (unit 1)
         )
@@ -2968,7 +2935,7 @@
   (symbol (lib_id "power:+3.3V") (at 45.72 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dbb2bc70-eb17-4b28-99e1-6cb505d35815)
-    (property "Reference" "#PWR09" (at 45.72 171.45 0)
+    (property "Reference" "#PWR061" (at 45.72 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 45.72 163.83 0)
@@ -2983,12 +2950,6 @@
     (pin "1" (uuid 077b6593-266f-4f1d-9fcb-5eb18f8c8d87))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
-          (reference "#PWR09") (unit 1)
-        )
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/f0d7f11b-6ebd-4c2b-8e52-e814f3b2f284"
-          (reference "#PWR034") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/93632245-6c20-4ae6-b62e-7dbbebc316d1"
           (reference "#PWR061") (unit 1)
         )

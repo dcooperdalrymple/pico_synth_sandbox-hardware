@@ -1759,7 +1759,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 165.1 96.52 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 090aed34-ec70-4cb7-8fb1-de553f3107b0)
-    (property "Reference" "TP14" (at 163.83 99.06 0)
+    (property "Reference" "TP9" (at 163.83 99.06 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SPKRR-" (at 166.37 99.06 0)
@@ -1774,9 +1774,6 @@
     (pin "1" (uuid 5d5c51e0-cf36-449d-96d2-5e6d1363ce11))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
-          (reference "TP14") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/95658688-f49d-4f25-a927-5c37230192e0"
           (reference "TP9") (unit 1)
         )
@@ -1812,7 +1809,7 @@
   (symbol (lib_id "Device:FerriteBead_Small") (at 127 96.52 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0facc666-7704-43ac-8e7e-08f3f261d06d)
-    (property "Reference" "FB2" (at 129.54 99.06 90)
+    (property "Reference" "FB3" (at 129.54 99.06 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FSPKRR-" (at 127 99.06 90)
@@ -1828,9 +1825,6 @@
     (pin "2" (uuid fc19866c-c088-45fc-890b-5c64d3d6055a))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
-          (reference "FB2") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/95658688-f49d-4f25-a927-5c37230192e0"
           (reference "FB3") (unit 1)
         )
@@ -2047,7 +2041,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack4_SwitchT1") (at 109.22 165.1 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 27c7fe28-673c-4c9a-b30c-f43c86e709fc)
-    (property "Reference" "J10" (at 119.38 161.925 0)
+    (property "Reference" "J3" (at 119.38 161.925 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LINEOUT" (at 119.38 164.465 0)
@@ -2066,9 +2060,6 @@
     (pin "TN" (uuid 4e2b4653-a893-4bf4-b6b4-71d804660315))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/93632245-6c20-4ae6-b62e-7dbbebc316d1"
-          (reference "J10") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/95658688-f49d-4f25-a927-5c37230192e0"
           (reference "J3") (unit 1)
         )
@@ -2156,7 +2147,7 @@
   (symbol (lib_id "Device:FerriteBead_Small") (at 130.81 85.09 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31c176e8-de01-474d-8566-e57398694925)
-    (property "Reference" "FB2" (at 133.35 87.63 90)
+    (property "Reference" "FB5" (at 133.35 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FSPKRL-" (at 130.81 87.63 90)
@@ -2172,9 +2163,6 @@
     (pin "2" (uuid 0c690e48-76df-41e2-bfaa-5b3fa299e458))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
-          (reference "FB2") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/95658688-f49d-4f25-a927-5c37230192e0"
           (reference "FB5") (unit 1)
         )
@@ -2287,7 +2275,7 @@
   (symbol (lib_id "power:GNDA") (at 101.6 175.26 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 355060e1-1192-43dd-a03f-e06193b046f6)
-    (property "Reference" "#PWR020" (at 101.6 181.61 0)
+    (property "Reference" "#PWR097" (at 101.6 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 101.6 179.07 0)
@@ -2302,9 +2290,6 @@
     (pin "1" (uuid f0838d2d-849a-490c-87fd-e1e556929b8e))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
-          (reference "#PWR020") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/95658688-f49d-4f25-a927-5c37230192e0"
           (reference "#PWR097") (unit 1)
         )
@@ -2495,7 +2480,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 165.1 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 612a1646-e7b4-497a-8cde-6153bba312bc)
-    (property "Reference" "TP13" (at 163.83 80.01 0)
+    (property "Reference" "TP6" (at 163.83 80.01 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SPKRL+" (at 166.37 80.01 0)
@@ -2510,9 +2495,6 @@
     (pin "1" (uuid 329a59fb-f41b-414a-872c-1a61c7f751ee))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
-          (reference "TP13") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/95658688-f49d-4f25-a927-5c37230192e0"
           (reference "TP6") (unit 1)
         )
@@ -2696,7 +2678,7 @@
   (symbol (lib_id "Device:C_Small") (at 135.89 106.68 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7915d632-87bd-41a0-8c22-309e8e7d5efa)
-    (property "Reference" "C28" (at 134.62 105.41 90)
+    (property "Reference" "C39" (at 134.62 105.41 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "200pF" (at 133.35 107.9563 0)
@@ -2712,9 +2694,6 @@
     (pin "2" (uuid 20714f75-477d-4550-9fa4-c0306999d8ec))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
-          (reference "C28") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/95658688-f49d-4f25-a927-5c37230192e0"
           (reference "C39") (unit 1)
         )
@@ -2725,7 +2704,7 @@
   (symbol (lib_id "pico_synth_sandbox:RK10J12R0A0B") (at 48.26 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b7ad32b-22ce-4f3c-985d-09798e1cb9e3)
-    (property "Reference" "RV2" (at 49.53 67.31 90)
+    (property "Reference" "RV3" (at 49.53 67.31 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 46.99 67.31 90)
@@ -2744,9 +2723,6 @@
     (pin "5" (uuid 76238847-63c2-46fa-827b-8c55eb7d9615))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/93632245-6c20-4ae6-b62e-7dbbebc316d1"
-          (reference "RV2") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/95658688-f49d-4f25-a927-5c37230192e0"
           (reference "RV3") (unit 1)
         )
@@ -2782,7 +2758,7 @@
   (symbol (lib_id "Device:C_Small") (at 147.32 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8bfac0a9-585f-415d-be9c-973433f0f9b8)
-    (property "Reference" "C29" (at 146.05 105.41 90)
+    (property "Reference" "C42" (at 146.05 105.41 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "200pF" (at 149.86 107.9563 0)
@@ -2798,9 +2774,6 @@
     (pin "2" (uuid d33b52de-7369-47f5-b792-caa9ef74ba09))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
-          (reference "C29") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/95658688-f49d-4f25-a927-5c37230192e0"
           (reference "C42") (unit 1)
         )
@@ -2836,7 +2809,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 165.1 85.09 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 92652950-096d-4057-836b-7879c381d084)
-    (property "Reference" "TP14" (at 163.83 87.63 0)
+    (property "Reference" "TP7" (at 163.83 87.63 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SPKRL-" (at 166.37 87.63 0)
@@ -2851,9 +2824,6 @@
     (pin "1" (uuid 9870996d-b722-4208-bd88-d6708b6db5b2))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
-          (reference "TP14") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/95658688-f49d-4f25-a927-5c37230192e0"
           (reference "TP7") (unit 1)
         )
@@ -2864,7 +2834,7 @@
   (symbol (lib_id "Device:FerriteBead_Small") (at 128.27 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 938031fc-c8e9-4772-ba0b-e42622ecc7ac)
-    (property "Reference" "FB1" (at 130.81 80.01 90)
+    (property "Reference" "FB4" (at 130.81 80.01 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FSPKRL+" (at 128.27 80.01 90)
@@ -2880,9 +2850,6 @@
     (pin "2" (uuid afc54b1c-f36e-40d3-9e4e-55bd9322b9ad))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
-          (reference "FB1") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/95658688-f49d-4f25-a927-5c37230192e0"
           (reference "FB4") (unit 1)
         )
@@ -2996,7 +2963,7 @@
   (symbol (lib_id "Device:C_Small") (at 143.51 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a6e4deef-4415-480b-addd-c234b9751513)
-    (property "Reference" "C29" (at 142.24 105.41 90)
+    (property "Reference" "C41" (at 142.24 105.41 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "200pF" (at 146.05 107.9563 0)
@@ -3012,9 +2979,6 @@
     (pin "2" (uuid e6b00c6f-3b14-4187-b65d-36c1e864b21c))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
-          (reference "C29") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/95658688-f49d-4f25-a927-5c37230192e0"
           (reference "C41") (unit 1)
         )
@@ -3150,7 +3114,7 @@
   (symbol (lib_id "Device:FerriteBead_Small") (at 124.46 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c2a6a12f-f037-42c1-9cd3-f34bf2fc0bca)
-    (property "Reference" "FB1" (at 127 91.44 90)
+    (property "Reference" "FB2" (at 127 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FSPKRR+" (at 124.46 91.44 90)
@@ -3166,9 +3130,6 @@
     (pin "2" (uuid f0490289-9d0a-4f4f-bfc0-4942a448e950))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
-          (reference "FB1") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/95658688-f49d-4f25-a927-5c37230192e0"
           (reference "FB2") (unit 1)
         )
@@ -3306,7 +3267,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack4_SwitchT1") (at 241.3 144.78 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d9ebe44e-cc11-4ab2-8403-52ba458bb940)
-    (property "Reference" "J10" (at 251.46 141.605 0)
+    (property "Reference" "J6" (at 251.46 141.605 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "HPOUT" (at 251.46 144.145 0)
@@ -3325,9 +3286,6 @@
     (pin "TN" (uuid 0ecf8265-0b63-40c4-b530-73077a666430))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/93632245-6c20-4ae6-b62e-7dbbebc316d1"
-          (reference "J10") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/95658688-f49d-4f25-a927-5c37230192e0"
           (reference "J6") (unit 1)
         )
@@ -3363,7 +3321,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 165.1 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5b79b3c-c32a-46f6-95ac-627731a076bd)
-    (property "Reference" "TP13" (at 163.83 91.44 0)
+    (property "Reference" "TP8" (at 163.83 91.44 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SPKRR+" (at 166.37 91.44 0)
@@ -3378,9 +3336,6 @@
     (pin "1" (uuid 6642f9cb-e417-4813-a499-82e5ebb7cc37))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
-          (reference "TP13") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/95658688-f49d-4f25-a927-5c37230192e0"
           (reference "TP8") (unit 1)
         )
@@ -3493,7 +3448,7 @@
   (symbol (lib_id "Device:C_Small") (at 139.7 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f1ab4bcd-5472-4edd-9dfa-00ff5b26d6ff)
-    (property "Reference" "C29" (at 138.43 105.41 90)
+    (property "Reference" "C40" (at 138.43 105.41 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "200pF" (at 142.24 107.9563 0)
@@ -3509,9 +3464,6 @@
     (pin "2" (uuid f5e1df0b-a3a3-4edf-b99d-3054224502a7))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
-          (reference "C29") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/95658688-f49d-4f25-a927-5c37230192e0"
           (reference "C40") (unit 1)
         )

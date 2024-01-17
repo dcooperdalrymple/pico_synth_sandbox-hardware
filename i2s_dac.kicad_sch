@@ -1216,7 +1216,7 @@
   (symbol (lib_id "power:+3.3V") (at 133.35 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b1a11c9-fd84-405c-baf2-86e744ea43de)
-    (property "Reference" "#PWR09" (at 133.35 60.96 0)
+    (property "Reference" "#PWR045" (at 133.35 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 133.35 50.8 90)
@@ -1231,9 +1231,6 @@
     (pin "1" (uuid da3fef87-3b84-447c-8deb-6cbbdf8f7901))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
-          (reference "#PWR09") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/f0d7f11b-6ebd-4c2b-8e52-e814f3b2f284"
           (reference "#PWR045") (unit 1)
         )
@@ -1837,7 +1834,7 @@
   (symbol (lib_id "power:+3.3V") (at 107.95 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 99abdf2f-3eef-4713-899b-1e7c45d35413)
-    (property "Reference" "#PWR09" (at 107.95 139.7 0)
+    (property "Reference" "#PWR042" (at 107.95 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 107.95 132.08 0)
@@ -1852,9 +1849,6 @@
     (pin "1" (uuid 4899163c-35f3-4fe3-b686-4e61fb968493))
     (instances
       (project "pico_synth_sandbox"
-        (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a"
-          (reference "#PWR09") (unit 1)
-        )
         (path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/f0d7f11b-6ebd-4c2b-8e52-e814f3b2f284"
           (reference "#PWR042") (unit 1)
         )
