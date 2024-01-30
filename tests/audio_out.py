@@ -13,11 +13,13 @@ for i in range(length):
 sine_wave = audiocore.RawSample(sine_wave, sample_rate=sample_rate)
 
 dac = audiobusio.I2SOut(
-    bit_clock=board.GP16,
-    word_select=board.GP17,
-    data=board.GP18
+    bit_clock=board.GP19,
+    word_select=board.GP20,
+    data=board.GP21
 )
 
-dac.play(sine_wave, loop=True)
-time.sleep(1)
-dac.stop()
+while True:
+    dac.play(sine_wave, loop=True)
+    time.sleep(0.5)
+    dac.stop()
+    time.sleep(0.5)
