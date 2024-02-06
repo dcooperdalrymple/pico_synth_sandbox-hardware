@@ -446,8 +446,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "pico_synth_sandbox.step",
-      "vrml": "pico_synth_sandbox.wrl"
+      "step": "case/rev2/pico_synth_sandbox.step",
+      "vrml": "case/rev2/pico_synth_sandbox.wrl"
     },
     "page_layout_descr_file": ""
   },
