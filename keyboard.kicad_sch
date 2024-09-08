@@ -1716,11 +1716,11 @@
 				)
 			)
 		)
-		(symbol "power:+3V3"
+		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1733,7 +1733,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3V3"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1759,7 +1759,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1777,7 +1777,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1815,11 +1815,11 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4153,6 +4153,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 71.12 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32c5cfb8-fa83-4c7a-afcf-e9a4ef9ecc24")
+		(property "Reference" "#PWR0123"
+			(at 71.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 71.12 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 71.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ae22e06-cd66-4ec5-a610-3b28690e58e9")
+		)
+		(instances
+			(project ""
+				(path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/c37b2c46-91dc-4067-923d-eccca1cbe357"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 151.13 139.7 0)
 		(mirror x)
@@ -4842,6 +4908,72 @@
 			(project "pico_synth_sandbox"
 				(path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/c37b2c46-91dc-4067-923d-eccca1cbe357"
 					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 217.17 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85a7f804-75fc-44c1-b181-21623e0707bc")
+		(property "Reference" "#PWR0127"
+			(at 217.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 217.17 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 217.17 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4b1f8bc-a90b-426e-a437-29d69733a07e")
+		)
+		(instances
+			(project "pico_synth_sandbox"
+				(path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/c37b2c46-91dc-4067-923d-eccca1cbe357"
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -6086,72 +6218,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 71.12 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb41ac05-a1cf-4ece-889a-ebc3cdcf515c")
-		(property "Reference" "#PWR0123"
-			(at 71.12 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 71.12 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cde85b68-0a4b-4dce-bcdb-7059fef5f19f")
-		)
-		(instances
-			(project "pico_synth_sandbox"
-				(path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/c37b2c46-91dc-4067-923d-eccca1cbe357"
-					(reference "#PWR0123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 151.13 137.16 0)
 		(mirror x)
@@ -6217,72 +6283,6 @@
 			(project "pico_synth_sandbox"
 				(path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/c37b2c46-91dc-4067-923d-eccca1cbe357"
 					(reference "JP15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 217.17 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f072adce-7a78-458c-8ab8-2b20318a1f17")
-		(property "Reference" "#PWR0127"
-			(at 217.17 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 217.17 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 217.17 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "574a5c36-bf50-4f57-96c9-685206bb6443")
-		)
-		(instances
-			(project "pico_synth_sandbox"
-				(path "/bfc01388-33ce-4b1a-9d2f-82d750172e5a/c37b2c46-91dc-4067-923d-eccca1cbe357"
-					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
